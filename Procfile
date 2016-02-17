@@ -1,1 +1,1 @@
-web: bundle exec puma ./config.ru -p 9292
+web: bundle exec puma ./config.ru -e production -p 9292

@@ -54,6 +54,7 @@ DEPENDENCIES
   faye-redis
   pry
   puma
+  rack
 
 BUNDLED WITH
    1.11.2

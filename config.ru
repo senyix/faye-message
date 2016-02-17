@@ -1,4 +1,5 @@
 require "yaml"
+require "rack"
 require "faye"
 require "faye/redis"
 
