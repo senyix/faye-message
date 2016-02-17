@@ -7,6 +7,7 @@ This is the repo for a publish-subscribe messaging system based on
 
 * Ruby 2.2.4
 * Foreman gem
+* Redis
 
 ### Local setup
 
