@@ -1,0 +1,6 @@
+development:
+  server: "http://localhost:9292/faye"
+  secret_token: "auth_token"
+production:
+  server: "http://localhost:9292/faye"
+  secret_token: "auth_token"

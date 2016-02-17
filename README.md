@@ -12,5 +12,7 @@ This is the repo for a publish-subscribe messaging system based on
 
 * Clone this repo
 * cd into the project's directory and `$ bundle install`
+* `$ cp config/faye.sample.yml config/faye.yml`
+* edit `config/faye.yml` for local development
 * `$ foreman start`
 * Faye server will listen on `http://localhost:9292/faye`
