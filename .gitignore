@@ -1,3 +1,4 @@
 config/faye.yml
 config/deploy/production.rb
 config/deploy/staging.rb
+Procfile

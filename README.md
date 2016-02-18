@@ -15,6 +15,8 @@ This is the repo for a publish-subscribe messaging system based on
 * cd into the project's directory and `$ bundle install`
 * `$ cp config/faye.sample.yml config/faye.yml`
 * edit `config/faye.yml` for local development
+* `$ cp Procfile.sample Procfile`
+* edit `Procfile` to reflect the correct command to launch redis in your environment
 * `$ foreman start`
 * Faye server will listen on `http://localhost:9292/faye`
 
@@ -29,6 +31,10 @@ This is the repo for a publish-subscribe messaging system based on
   * `sudo` privileges
   * password-less sudo privileges
   * password-less login access (via ssh keys)
+* `$ cp config/faye.sample.yml config/faye.yml`
+* edit `config/faye.yml` to add a strong `secret_token` value, remember, this
+will be the authentication token a request should provide in order to correctly
+publish to the Faye message server
 
 #### Deployment flow
 
