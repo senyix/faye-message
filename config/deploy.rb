@@ -2,7 +2,6 @@
 lock "3.4.0"
 
 set :application, "faye_message_server"
-set :user, "deploy"
 set :repo_url, "git@github.com:resuelve-tu-deuda/faye-message-server.git"
 
 # Default branch is :master
