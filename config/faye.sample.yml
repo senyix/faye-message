@@ -3,6 +3,11 @@ development:
   secret_token: "auth_token"
   redis_host: "localhost"
   redis_port: "6379"
+staging:
+  server: "http://localhost:9292/faye"
+  secret_token: "auth_token"
+  redis_host: "localhost"
+  redis_port: "6379"
 production:
   server: "http://localhost:9292/faye"
   secret_token: "auth_token"
